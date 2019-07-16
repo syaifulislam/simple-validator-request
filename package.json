@@ -1,0 +1,17 @@
+{
+  "name": "simple-validator-request",
+  "version": "1.0.0",
+  "description": "simple validator for request body",
+  "main": "simple-validator-request.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "simple-validator-request"
+  ],
+  "author": "syaifulislamm",
+  "license": "ISC",
+  "dependencies": {
+    "validator": "^11.1.0"
+  }
+}
