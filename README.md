@@ -1,6 +1,14 @@
 # Simple Validator Request
 Npm Package for simple validator request body
 
+## Installation 
+```
+npm i simple-validator-request
+```
+
+## Dependencies
+- [validator](https://www.npmjs.com/package/validator)
+
 ## How To Use
 
 ```
