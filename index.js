@@ -29,5 +29,6 @@ const body = {
     name:"asdsad"
 }
 
+
 let val = simpleValidator(body,validation)
 console.log(val)
