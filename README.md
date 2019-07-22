@@ -12,7 +12,7 @@ npm i simple-validator-request
 ## How To Use
 
 ```
-const { simpleValidator } = require('./simple-validator-request')
+const { simpleValidator } = require('simple-validator-request')
 
 const validation = {
     requiredKey: {
