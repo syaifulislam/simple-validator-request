@@ -1,4 +1,4 @@
-const {simpleValidator} = require('simple-validator-request')
+const {simpleValidator} = require('./simple-validator-request')
 
 const validation = {
     name: {
@@ -26,8 +26,7 @@ const validation = {
 
 const body = {
     code:"asdasd",
-    name:"asdsad",
-    arrs:["asd","asd"]
+    name:"asdsad"
 }
 
 let val = simpleValidator(body,validation)
