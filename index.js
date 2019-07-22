@@ -4,22 +4,22 @@ const validation = {
     name: {
         type: 'string',
         message: {
-            required: 'Please insert name and code prefix #FORECOFFEE',
-            type: 'Please insert name with string #FORECOFFEE'
+            required: 'Please insert name and code prefix',
+            type: 'Please insert name with string'
         }
     },
     code: {
         type: 'string',
         message: {
-            required: 'Please insert name and code prefix #FORECOFFEE',
-            type: 'Please insert code with string #FORECOFFEE'
+            required: 'Please insert name and code prefix',
+            type: 'Please insert code with string'
         }
     },
     arrs: {
         type: 'array',
         message: {
-            required: 'arrs is required #FORECOFFEE',
-            type: 'arrs array #FORECOFFEE'
+            required: 'arrs is required',
+            type: 'arrs array'
         }
     }
 }
