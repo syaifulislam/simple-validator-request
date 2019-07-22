@@ -41,7 +41,7 @@ const body = {
 let validator = simpleValidator(body, validation)
 console.log(validator)
 // validator.status = boolean
-// validator.error = Object string (message error)
+// validator.error = string (message error)
 ```
 ## Explain
 ```

@@ -1,9 +1,11 @@
 /* eslint-disable valid-typeof */
 const validator = require('validator')
+
+
 module.exports.simpleValidator = function (data, validate) {
     let resp = {
         status: true,
-        error: {}
+        error: ''
     }
     if (typeof (validate) !== 'object') {
         resp.status = false

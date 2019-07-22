@@ -14,13 +14,6 @@ const validation = {
             required: 'Please insert name and code prefix',
             type: 'Please insert code with string'
         }
-    },
-    arrs: {
-        type: 'array',
-        message: {
-            required: 'arrs is required',
-            type: 'arrs array'
-        }
     }
 }
 
